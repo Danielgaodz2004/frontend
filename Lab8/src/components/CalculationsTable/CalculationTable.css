@@ -1,0 +1,35 @@
+.qr-hover-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.status-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.qr-hover {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.5);
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.qr-code {
+  width: 120px;
+  height: 120px;
+}
+
+.qr-hover-wrapper:hover .qr-hover {
+  display: block;
+}

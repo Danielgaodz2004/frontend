@@ -1,0 +1,62 @@
+.code-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 900px; /* Increase max width */
+  word-wrap: break-word; /* Ensure text wraps */
+}
+
+.code-details {
+  flex: 2; /* Increase width for text */
+  padding-right: 20px; /* Add more spacing */
+  word-break: break-word; /* Force long words to break */
+}
+
+.code-details h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.code-details p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+
+.code-image {
+  flex: 1; /* Give more space for the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-image img {
+  max-width: 250px; /* Increase image size */
+  max-height: 250px;
+  border-radius: 8px;
+  object-fit: cover; /* Ensure image maintains aspect ratio */
+}
+
+.button-group {
+  margin-top: 15px;
+}
+
+.button-group button {
+  margin-right: 8px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+}
+
+.button-group button:hover {
+  opacity: 0.8;
+}
